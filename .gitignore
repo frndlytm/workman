@@ -1,0 +1,38 @@
+### Language:Go
+
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# go list
+target/
+
+# Go workspace file
+go.work
+
+
+### Workspace:VSCode
+.vscode/
+workman.code-workspace
+
+
+### OS:Windows
+.env
+.config/
+.local/
+*.db
+
+
+### Language:Python
+__pycache__/
+.venv/
+venv/

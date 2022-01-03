@@ -1,0 +1,26 @@
+\documentclass{(( klass ))}
+
+
+\title{(( title ))}
+\author{(( author ))}
+\date{\today}
+
+
+\begin{document}
+  \maketitle
+  \tableofcontents
+  \listoffigures
+  \listofalgorithms
+
+  % Sections
+  (* for section in sections *)
+    \include{(( section ))}
+  (* endfor *)
+
+  % Appendices
+  \appendix
+  (* for appendix in appendices *)
+    \include{(( appendix ))}
+  (* endfor *)
+
+\end{document}
